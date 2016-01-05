@@ -1,0 +1,234 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+html{
+
+	padding-bottom: 10%;
+	margin-right: 8%;
+	margin-left: 8%;
+	background-color:#000000;	
+	/*background-image: url('fotos/Wall-Stone.JPG');*/
+	
+
+}
+
+body {
+	padding-bottom: 10%;
+	margin-right: 7%;
+	margin-left: 7%;
+	background-image: url('fotos/sideback.JPG');
+	
+
+	
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+  
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 100px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 15px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 250;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+/* Este Css es añadido */
+.top-buffer { 
+	margin-top:5%;
+	padding-left:60px;
+	padding-right:100px;
+ }
+.bot-buffer{
+       position:fixed;
+       padding:0;                 
+       left: 0;
+       bottom: 0;
+       width: 100%;
+}
+.background-header{
+
+background-color:#686868;
+margin-top:0%;
+height: 15%;
+}
+
+.padding-left{
+padding-left:35%;
+
+}
+
+.mid-div{
+margin-left: 25%;
+
+}
+/* CSS: (StyleSheet) */
+
+pre{
+font-family:sans-serif;
+-webkit-text-size-adjust:100%;
+}
+
+.circle-text{
+text-align: center;
+}
+
+
+.navbar-collapse.collapse {
+        text-align: center;
+        /*display: block !important;*/
+        height: auto !important;
+        padding-bottom: 0;
+        overflow: visible !important;
+		
+}
+.navbar-nav {
+    display: inline-block;
+    float: none;
+    margin: 0;
+}
+.navbar-brand{
+	
+    position: absolute;
+    width: 100%;
+    left: -530;
+	
+    text-align: center;
+    margin: auto;
+}
+/*.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+
+  height: 60px;
+  background-color: #f5f5f5;
+}*/
+.footer {
+    width:100%;
+    height:80px;
+    background-color:#000;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    left: 120pt;
+}
+
+
